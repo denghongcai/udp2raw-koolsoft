@@ -81,6 +81,7 @@ function save(){
 	Apps.udp2raw_cipher = E('_udp2raw_cipher').value;
 	Apps.udp2raw_mode = E('_udp2raw_mode').value;
 	Apps.udp2raw_server = E('_udp2raw_server').value;
+	Apps.udp2raw_custom = E('_udp2raw_custom').value;
 	if(Apps.udp2raw_server == ""){
 		alert("填写的信息不全，请检查后再提交！");
 		return false;
@@ -119,7 +120,7 @@ function save(){
 }
 </script>
 <div class="box">
-<div class="heading">udp2raw 20181113.0 <a href="#/soft-center.asp" class="btn" style="float:right;border-radius:3px;margin-right:5px;margin-top:0px;">返回</a></div>
+<div class="heading">udp2raw 20200818.0 <a href="#/soft-center.asp" class="btn" style="float:right;border-radius:3px;margin-right:5px;margin-top:0px;">返回</a></div>
 <div class="content">
 	<span class="col" style="line-height:30px;width:700px">
   <li>Program:wangyu-</li>
